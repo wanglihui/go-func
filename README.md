@@ -36,3 +36,11 @@ don't to create repeat wheel
 		assert.Error(t, err)
 	})
 ```
+
+### test
+
+go test ./... -cover
+
+```
+ok  	github.com/wanglihui/go-funk/slice	(cached)	coverage: 98.4% of statements
+```
