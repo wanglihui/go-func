@@ -1,6 +1,8 @@
 go-func
 ---
 
+[![Go](https://github.com/wanglihui/go-func/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/wanglihui/go-func/actions/workflows/go.yml)
+
 don't to create repeat wheel
 
 ### function index
