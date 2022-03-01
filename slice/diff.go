@@ -1,6 +1,6 @@
 package slice
 
-func Diff[T comparable](arr, arr2 []T, f func(a, b T) bool) []T {
+func DiffBy[T comparable](arr, arr2 []T, f func(a, b T) bool) []T {
 	diffArr := make([]T, 0)
 	for _, t := range arr {
 		b := false
@@ -30,4 +30,10 @@ func Diff[T comparable](arr, arr2 []T, f func(a, b T) bool) []T {
 		}
 	}
 	return diffArr
+}
+
+func Diff[T comparable](arr1 []T, arr2 []T) []T {
+	return DiffBy(arr1, arr2, func(a, b T) bool {
+		return a == b
+	})
 }
