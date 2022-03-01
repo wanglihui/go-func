@@ -18,6 +18,8 @@ don't to create repeat wheel
 - Diff
 - DiffBy
 - Chunk
+- Each
+- EachAsync
 
 ### usage
 
