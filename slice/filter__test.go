@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wanglihui/go-funk/slice"
+	"github.com/wanglihui/go-func/slice"
 )
 
 func TestFilter(t *testing.T) {
