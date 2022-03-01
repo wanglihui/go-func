@@ -13,7 +13,11 @@ don't to create repeat wheel
 - OrderBy
 - Filter
 - Contains
--
+- Uniq
+- UniqBy
+- Diff
+- DiffBy
+- Chunk
 
 ### usage
 
