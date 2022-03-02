@@ -1,5 +1,10 @@
 package slice
 
+// Chunk
+//
+// As a example:
+//     arr := []int{1,2,3}
+//     newArr := Chunk(arr, 2)
 func Chunk[T any](arr []T, size int) [][]T {
 	retArr := make([][]T, 0, len(arr)/size+1)
 	for idx, item := range arr {
