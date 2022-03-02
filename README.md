@@ -20,6 +20,7 @@ don't to create repeat wheel
 - Chunk
 - Each
 - EachAsync
+- GroupBy
 
 ### usage
 
